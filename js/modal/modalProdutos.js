@@ -29,11 +29,11 @@ export function modalProdutos(img, titulo, descricao, preco){
     modal.innerHTML = `
         <div class="modalCabecalho">
             <div class="imgEtitulo">
-                <img src="/assets/modal/check-circle.png" class="modalCabecalho-iconeVerifica" alt="Circulo de verifação">
+                <img src="./assets/modal/check-circle.png" class="modalCabecalho-iconeVerifica" alt="Circulo de verifação">
                 <h1 class="modalCabecalho-titulo">Confira detalhes sobre o produto</h1>
             </div>
             <div class="iconeCancelar">
-                <button class="modalCabecalho-iconeCancelar"><img src="/assets/modal/x Icon.png" alt="Botão cancelar"></button>
+                <button class="modalCabecalho-iconeCancelar"><img src="./assets/modal/x Icon.png" alt="Botão cancelar"></button>
             </div>
         </div>
         <div class="modalConteudo">
