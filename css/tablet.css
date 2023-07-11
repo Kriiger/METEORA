@@ -1,0 +1,159 @@
+@media screen and (max-width: 768px){
+    
+    .cabecalho{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .logo{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 24px;
+        width: 100px;
+    }
+
+    .linksDeNavegacao__item{
+        font-size: .8125rem;
+        padding-left: 1.25rem;
+    }
+
+    .botaoMenu{
+        display: none;
+    }
+
+    .pesquisar{
+        width: 35%;
+    }
+
+    .campoDePesquisa{
+        font-size: .8125rem;
+        width: 55%;
+    }
+
+    .banneresDaPagina-desktop, .banneresDaPagina-mobile{
+        display: none;
+    }
+    .banneresDaPagina-tablet{
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .indicators {
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+    
+
+    .botaoCategoria-imagemMobile, .botaoCategoria-imagemDesktop{
+        display: none;
+    }
+    .botaoCategoria-imagemTablet{
+        display: block;
+    }
+
+    .tituloDaSecaoCategorias, .titulo{
+        font-size: 1.75rem;
+    }
+    
+    .botoesCategoria{
+        row-gap: 1.5rem;
+    }
+
+    .secaoProdutos-imagem{
+        width: 330px;
+        height: 389px;
+    }
+
+    .secaoFacilidades-itens{
+        flex-direction: column;
+    }
+
+    .facilidadesItens{
+        width: 40%;
+    }
+
+    .novidades{
+        padding: 2.5rem 1rem 2.5rem 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 769px) and (max-width: 1000px){
+    .logo{
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 24px;
+        width: 100px;
+    }
+
+    .linksDeNavegacao__item{
+        font-size: .8125rem;
+        padding-left: 1.25rem;
+    }
+
+    .botaoMenu{
+        display: none;
+    }
+
+    .pesquisar{
+        width: 35%;
+    }
+
+    .campoDePesquisa{
+        font-size: .8125rem;
+        width: 55%;
+    }
+
+    .banneresDaPagina-tablet, .banneresDaPagina-mobile{
+        display: none;
+    }
+    .banneresDaPagina-desktop{
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .indicators {
+        position: absolute;
+        top: 90%;
+        left: 40%;
+    }
+    
+
+    .botaoCategoria-imagemMobile, .botaoCategoria-imagemDesktop{
+        display: none;
+    }
+    .botaoCategoria-imagemTablet{
+        display: block;
+    }
+
+    .tituloDaSecaoCategorias, .titulo{
+        font-size: 1.75rem;
+    }
+    
+    .botoesCategoria{
+        row-gap: 1.5rem;
+    }
+
+    .secaoProdutos-imagem{
+        width: 330px;
+        height: 389px;
+    }
+
+    .secaoFacilidades-itens{
+        flex-direction: column;
+    }
+
+    .facilidadesItens{
+        width: 40%;
+    }
+
+    .novidades{
+        padding: 2.5rem 1rem 2.5rem 1rem;
+    }
+    
+}

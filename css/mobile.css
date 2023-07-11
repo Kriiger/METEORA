@@ -1,0 +1,299 @@
+@media screen and (max-width: 375px) {
+    .cabecalho{
+        background-color: transparent;
+        display: inline-block;
+        color: var(--cinza);
+        font-family: var(--ff-inter);
+        font-weight: 400;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .logo{
+        background-image: url(/assets/Mobile/Logo\ mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 18px;
+        width: 125.7px;
+    }
+    
+    .navegacao{
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .linksDeNavegacao{
+        display: none;
+    }
+
+    .botaoMenu{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    .pesquisar{
+        justify-content: center;
+        width: 100%;
+        padding: 1,5625rem;
+        gap: 0px;
+    }
+
+    .campoDePesquisa{
+        border: 1px solid var(--preto);
+        padding: .5rem;
+        color: var(--cinza);
+        background-color: var(--branco);
+        width: 100%;
+    }
+
+    .botaoPesquisa{
+        border: 1px solid var(--preto);
+        color: var(--preto);
+        margin-left: .4rem;
+    }
+
+    .prev,
+    .next {
+        top: 59%;
+    }
+
+    .banneresDaPagina-desktop, .banneresDaPagina-tablet{
+        display: none;
+    }
+    .banneresDaPagina-mobile{
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .indicators {
+        position: absolute;
+        top: 90%;
+        left: 30%;
+    }
+
+    .secaoCategorias{
+        margin-top: 1.5rem;
+    }
+
+    .botaoCategoria-imagemTablet, .botaoCategoria-imagemDesktop{
+        display: none;
+    }
+    .botaoCategoria-imagemMobile{
+        display: block;
+    }
+
+    .secaoFacilidades{
+        padding: 2rem;
+    }
+    
+    .secaoFacilidades-titulo{
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .secaoFacilidades-itens{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        column-gap: 3.5rem;
+        row-gap: 40px;
+        justify-content:flex-start;
+    }
+    
+    .facilidadesItens{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 1.5rem;
+        width: 90%;
+        align-items: flex-start;
+    }
+    
+    .novidades-titulo{
+        font-size: 1rem;
+    }
+
+    .novidades-input{
+        width: 70%;
+    }
+
+    .rodape-titulo{
+        width: 60%;
+    }
+
+    /* MODAL MODAL MODAL MODAL MODAL MODAL */
+        
+    .modalConteudo-img{
+        width: 311px;
+        margin-bottom: 1.5rem;
+    }
+    
+    .modalCabecalho-titulo{
+        width: 70%;
+    }
+    
+    .modalConteudo{
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .modalNewsletter{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 710px) {
+    .cabecalho{
+        background-color: transparent;
+        display: inline-block;
+        color: var(--cinza);
+        font-family: var(--ff-inter);
+        font-weight: 400;
+        justify-content:space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .logo{
+        background-image: url(/assets/Mobile/Logo\ mobile.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 18px;
+        width: 125.7px;
+    }
+    
+    .navegacao{
+        background-color: var(--preto);
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .linksDeNavegacao{
+        display: none;
+    }
+
+    .botaoMenu{
+        display: block;
+        background-color: transparent;
+        border: none;
+    }
+
+    .pesquisar{
+        justify-content: center;
+        width: 100%;
+        padding: 1,5625rem;
+        gap: 0px;
+    }
+
+    .campoDePesquisa{
+        border: 1px solid var(--preto);
+        padding: .5rem;
+        color: var(--cinza);
+        background-color: var(--branco);
+        width: 100%;
+    }
+
+    .botaoPesquisa{
+        border: 1px solid var(--preto);
+        color: var(--preto);
+        margin-left: .4rem;
+    }
+
+    .prev,
+    .next {
+        top: 59%;
+    }
+
+    .banneresDaPagina-desktop, .banneresDaPagina-mobile{
+        display: none;
+    }
+    .banneresDaPagina-tablet{
+        display: block;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .indicators {
+        position: absolute;
+        top: 90%;
+        left: 30%;
+    }
+
+    .secaoCategorias{
+        margin-top: 1.5rem;
+    }
+
+    .botaoCategoria-imagemTablet, .botaoCategoria-imagemDesktop{
+        display: none;
+    }
+    .botaoCategoria-imagemMobile{
+        display: block;
+    }
+
+    .secaoFacilidades{
+        padding: 2rem;
+    }
+    
+    .secaoFacilidades-titulo{
+        font-size: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .secaoFacilidades-itens{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        column-gap: 3.5rem;
+        row-gap: 40px;
+        justify-content:flex-start;
+    }
+    
+    .facilidadesItens{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 1.5rem;
+        width: 90%;
+        align-items: flex-start;
+    }
+    
+    .novidades-titulo{
+        font-size: 1rem;
+    }
+
+    .novidades-input{
+        width: 70%;
+    }
+
+    .rodape-titulo{
+        width: 60%;
+    }
+
+    /* MODAL MODAL MODAL MODAL MODAL MODAL */
+
+    .modalConteudo-img{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+    .modalCabecalho-titulo{
+        width: 70%;
+    }
+    
+    .modalConteudo{
+        display: flex;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .modalNewsletter{
+        width: 100%;
+    }
+}
