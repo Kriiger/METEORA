@@ -11,14 +11,14 @@
         width: 100%;
     }
 
-    .logo{
+    /*.logo{
         background-image: url(/assets/Mobile/Logo\ mobile.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         height: 18px;
         width: 125.7px;
-    }
+    }*/
     
     .navegacao{
         background-color: var(--preto);
