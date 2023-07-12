@@ -5,13 +5,13 @@
         flex-wrap: wrap;
     }
 
-    .logo{
+    /*.logo{
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
         height: 24px;
         width: 100px;
-    }
+    }*/
 
     .linksDeNavegacao__item{
         font-size: .8125rem;
@@ -87,15 +87,6 @@
         align-items: center;
         flex-wrap: wrap;
         width: 100%;
-    }
-
-    .logo{
-        background-image: url(/assets/Mobile/Logo\ mobile.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        height: 18px;
-        width: 125.7px;
     }
     
     .navegacao{
